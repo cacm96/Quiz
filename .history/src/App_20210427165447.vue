@@ -12,7 +12,6 @@
             :question="questions[index]"
             :next="next"
             :increment="increment"
-            :indexControl="index"
           />
         </b-col>
       </b-row>

@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <Header
-      :numberCorrectAnswers="numberCorrectAnswers"
-      :numberTotalAnswers="numberTotalAnswers"
-    />
+    <Header />
     <b-container class="bv-example-row my-5">
       <b-row>
         <b-col sm="6" offset="3">
@@ -12,7 +9,6 @@
             :question="questions[index]"
             :next="next"
             :increment="increment"
-            :indexControl="index"
           />
         </b-col>
       </b-row>
